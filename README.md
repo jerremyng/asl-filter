@@ -4,9 +4,9 @@ This is a data science project that applies an ASL translation filter over a vir
 ## Quick start guide
 
 ### Prerequisites
-Download [OBS Studio](https://obsproject.com/download)
-Click "Start Virtual Camera" (bottom right), then "Stop Virtual Camera".
-Close the OBS application.
+Download [OBS Studio](https://obsproject.com/download) <br/>
+Click "Start Virtual Camera" (bottom right), then "Stop Virtual Camera" <br/>
+Close OBS
 
 ### Usage
 1. Download repo
@@ -24,4 +24,4 @@ pip install -r requirements.txt
 python deploy_filter.py
 ```
 
-4. Select virtual camera from your teleconference app (zoom,skype,discord)
+4. Then simply select the virtual camera from your video-calling app (zoom,skype,discord)
