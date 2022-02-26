@@ -4,9 +4,7 @@ This is a data science project that applies an ASL translation filter over a vir
 ## Quick start guide
 
 ### Prerequisites:
-MacOS: Download [OBS Studio](https://obsproject.com/download)
-
-Windows: OBS comes preinstalled, no setup required
+Download [OBS Studio](https://obsproject.com/download)
 
 ## Usage
 1. Download repo
