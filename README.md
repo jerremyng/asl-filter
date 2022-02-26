@@ -4,7 +4,7 @@ This is a data science project that applies an ASL translation filter over a vir
 ## Quick start guide
 
 ### Prerequisites
-Download [OBS Studio](https://obsproject.com/download)
+Download [OBS Studio](https://obsproject.com/download) and create a virtual camera instance by clicking 'Start Virtual Camera'
 
 ### Usage
 1. Download repo
