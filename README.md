@@ -12,9 +12,14 @@ Download [OBS Studio](https://obsproject.com/download)
 git clone https://github.com/jerremyng/asl-filter.git
 ```
 
-2. Run python script
+2. Install dependencies
+```
+pip install -r requirements.txt
+```
+
+3. Run python script
 ```
 python deploy_filter.py
 ```
 
-3. Select virtual camera from your teleconference app (zoom,skype,discord)
+4. Select virtual camera from your teleconference app (zoom,skype,discord)
