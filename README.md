@@ -3,10 +3,10 @@ This is a data science project that applies an ASL translation filter over a vir
 
 ## Quick start guide
 
-### Prerequisites:
+### Prerequisites
 Download [OBS Studio](https://obsproject.com/download)
 
-## Usage
+### Usage
 1. Download repo
 ```
 git clone https://github.com/jerremyng/asl-filter.git
@@ -16,3 +16,5 @@ git clone https://github.com/jerremyng/asl-filter.git
 ```
 python deploy_filter.py
 ```
+
+3. Select virtual camera from your teleconference app (zoom,skype,discord)
