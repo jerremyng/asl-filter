@@ -6,7 +6,7 @@ import os
 import pyvirtualcam
 
 from tensorflow.keras.models import load_model
-
+#cool thing
 label_map = pd.read_csv(os.path.join('model_data',"label_map.csv")).columns[1:].tolist()
 model = load_model(os.path.join('model_data','ASL_model.h5'))
 
