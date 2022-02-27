@@ -27,7 +27,7 @@ python deploy_filter.py
 4. Then simply select the virtual camera from your video-calling app (zoom,skype,discord)
 
 ### Signs available
-The list of 13 words it can understand are found in the label_map.csv file 
-(afternoon, bye, excuse, fine, good, hello, morning, night, thank you, welcome, world, you, evening)
+The list of 5 words it can understand are found in the label_map.csv file 
+('afternoon','fine','good','hello','morning')
 
 To test these out, one can find the respective sign actions on google.
