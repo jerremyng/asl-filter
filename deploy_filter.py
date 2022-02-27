@@ -71,7 +71,7 @@ with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=
                 # print(results)
                 
                 # Draw landmarks
-                draw_styled_landmarks(image, results)
+                # draw_styled_landmarks(image, results)
                 
                 # 2. Prediction logic
                 keypoints = extract_keypoints(results)
