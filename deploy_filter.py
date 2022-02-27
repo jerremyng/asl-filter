@@ -8,7 +8,7 @@ import pyvirtualcam
 from tensorflow.keras.models import load_model
 #cool thing
 label_map = pd.read_csv(os.path.join('model_data',"label_map.csv")).columns[1:].tolist()
-model = load_model(os.path.join('model_data','ASL_model.h5'))
+model = load_model(os.path.join('model_data','model.h5'))
 
 mp_holistic = mp.solutions.holistic # keypoint model
 mp_drawing = mp.solutions.drawing_utils # drawing functions
@@ -76,9 +76,9 @@ with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=
                 # 2. Prediction logic
                 keypoints = extract_keypoints(results)
                 sequence.append(keypoints)
-                sequence = sequence[-134:]
+                sequence = sequence[-168:]
                 
-                if len(sequence) == 134:
+                if len(sequence) == 168:
                     res = model.predict(np.expand_dims(sequence, axis=0))[0]
                     print(label_map[np.argmax(res)])
                     predictions.append(np.argmax(res))
